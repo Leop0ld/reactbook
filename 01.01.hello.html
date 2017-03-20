@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Hello React</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div id="app">
+        <!-- 앱이 렌더링 되는 위치 -->
+    </div>
+</body>
+<script src="react/bulid/react.js"></script>
+<script src="react/bulid/react-dom.js"></script>
+<script>
+    ReactDOM.render(
+        React.DOM.h1(
+        {
+        	id: "my-heading",
+        },
+        "Hello World!"),
+        document.getElementById("app")
+    );
+</script>
+</html>
